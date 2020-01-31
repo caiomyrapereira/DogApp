@@ -2,10 +2,18 @@ import React from 'react';
 import './style.css';
 import Button from '../Button';
 
-const Dog = (props)=>(
+const Dog = (props)=>( 
+      
         <div className="dog"> 
-          <h1> breed name </h1>
-          <img src="https://images.dog.ceo/breeds/spaniel-welsh/n02102177_4181.jpg" alt="spaniel-welsh" />
+          <h1 style={
+            {
+              color:props.color,
+              fontFamily:props.font,
+            }
+          } > 
+          {props.dog.name}
+          </h1>
+          <img src={props.dog.url_img} alt={props.dog.name} />
           <Button className={'save'} >To Save </Button>
         </div>
 );

@@ -1,8 +1,9 @@
 import React from 'react';
 
-const Input =({className})=>(
+const Input =({className,inputValue, handlerInputValue})=>(
        <div className={className}>
-         <input />
+         {console.log(inputValue)}
+         <input  onChange={handlerInputValue}  value={inputValue}  />
        </div>
 );
 

@@ -1,5 +1,6 @@
 .Search{
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     height: 50px;
     margin: auto;
     padding-top: 25px;

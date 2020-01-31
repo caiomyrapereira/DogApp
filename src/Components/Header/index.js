@@ -3,9 +3,29 @@ import Search from '../Search'
 import './style.css'
 
 
-const Header =(props)=>(
+const Header =({
+  breedValue,
+  fontValue,
+  colorValue,
+  inputValue,
+  handlerBreedValue, 
+  handlerFontValue, 
+  handlerColorValue,
+  handlerInputValue,
+  getDog
+})=>(
         <div className="header">
-          <Search />
+          <Search  
+            breedValue={breedValue} 
+            fontValue = {fontValue}
+            colorValue = {colorValue}
+            inputValue= {inputValue}
+            handlerBreedValue = {handlerBreedValue}
+            handlerFontValue = {handlerFontValue}
+            handlerColorValue = {handlerColorValue}
+            handlerInputValue = {handlerInputValue}
+            getDog = {getDog}
+          />
         </div>
 );
 
