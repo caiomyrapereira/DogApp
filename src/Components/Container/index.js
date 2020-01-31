@@ -7,11 +7,13 @@ const Container = ({
    fontValue,
    colorValue,
    inputValue,
+   listDogs,
    dog,
    handlerBreedValue,
    handlerFontValue,
    handlerColorValue,
    handlerInputValue,
+   getListDogs,
    getDog
 })=>(
        <div className="container" >
@@ -20,14 +22,17 @@ const Container = ({
             fontValue = {fontValue}
             colorValue = {colorValue}
             inputValue = {inputValue}
+            listDogs = {listDogs}
             handlerBreedValue = {handlerBreedValue}
             handlerFontValue = {handlerFontValue}
             handlerColorValue = {handlerColorValue}
             handlerInputValue = {handlerInputValue}
+            getListDogs = {getListDogs}
             getDog={getDog}
           />
           <Main 
             dog = {dog}
+            name = {inputValue}
             fontValue = {fontValue}
             colorValue = {colorValue}
           />

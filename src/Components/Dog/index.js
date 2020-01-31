@@ -11,7 +11,7 @@ const Dog = (props)=>(
               fontFamily:props.font,
             }
           } > 
-          {props.dog.name}
+          {props.name}
           </h1>
           <img src={props.dog.url_img} alt={props.dog.name} />
           <Button className={'save'} >To Save </Button>

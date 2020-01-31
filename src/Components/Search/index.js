@@ -8,7 +8,7 @@ const Search =(props)=>(
         <div className="Search">
            <Select 
              name="breed" 
-             arr = {['african','akita','appenzeller']}
+             arr = {props.listDogs}
              handlerValue = {props.handlerBreedValue}
              value = {props.breedValue}
             />

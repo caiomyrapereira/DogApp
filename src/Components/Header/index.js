@@ -8,6 +8,7 @@ const Header =({
   fontValue,
   colorValue,
   inputValue,
+  listDogs,
   handlerBreedValue, 
   handlerFontValue, 
   handlerColorValue,
@@ -20,6 +21,7 @@ const Header =({
             fontValue = {fontValue}
             colorValue = {colorValue}
             inputValue= {inputValue}
+            listDogs = {listDogs}
             handlerBreedValue = {handlerBreedValue}
             handlerFontValue = {handlerFontValue}
             handlerColorValue = {handlerColorValue}
