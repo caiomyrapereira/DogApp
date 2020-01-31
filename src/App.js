@@ -22,8 +22,6 @@ class App extends React.Component{
          this.handlerFontValue = this.handlerFontValue.bind(this);
          this.handlerColorValue = this.handlerColorValue.bind(this);
          this.handlerInputValue = this.handlerInputValue.bind(this);
-         this.getDog = this.getDog.bind(this);
-
        }
 
        handlerBreedValue(e){
@@ -54,10 +52,6 @@ class App extends React.Component{
          this.setState({inputValue:e.target.value})
        }
 
-       getDog(e){
-         console.log(this.state.inputValue)
-       }
-
        getList() {
         ajax().get('https://dog.ceo/api/breeds/list/all').then( (response)=> {
           const newList = []
@@ -83,7 +77,6 @@ class App extends React.Component{
              handlerFontValue = {this.handlerFontValue}
              handlerColorValue={this.handlerColorValue}
              handlerInputValue = {this.handlerInputValue}
-             getDog={this.getDog}
            /> 
          )
        }

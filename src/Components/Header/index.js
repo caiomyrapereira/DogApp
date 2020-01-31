@@ -26,7 +26,6 @@ const Header =({
             handlerFontValue = {handlerFontValue}
             handlerColorValue = {handlerColorValue}
             handlerInputValue = {handlerInputValue}
-            getDog = {getDog}
           />
         </div>
 );

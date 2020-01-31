@@ -1,6 +1,5 @@
 import React from 'react';
 import Select from '../Select';
-import Button from '../Button';
 import './style.css';
 import Input from '../Input';
 
@@ -32,13 +31,6 @@ const Search =(props)=>(
              handlerInputValue = {props.handlerInputValue}
              className='inputSearch'
             />
-
-            <Button 
-            className='buttonSearch'
-            click = {props.getDog}
-            > 
-            Search 
-            </Button>
 
         </div>
 );

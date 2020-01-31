@@ -28,7 +28,6 @@ const Container = ({
             handlerColorValue = {handlerColorValue}
             handlerInputValue = {handlerInputValue}
             getListDogs = {getListDogs}
-            getDog={getDog}
           />
           <Main 
             dog = {dog}
