@@ -1,0 +1,15 @@
+.Search{
+    width: 500px;
+    height: 50px;
+    margin: auto;
+    padding-top: 25px;
+    
+}
+
+.Search .breed,
+ .inputSearch, 
+ .fonte,
+ .color, 
+ .buttonSearch{
+    float: left;
+}

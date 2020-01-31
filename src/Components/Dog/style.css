@@ -1,0 +1,10 @@
+.dog{
+    text-align: center;
+}
+
+.dog .save button{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid;
+}
