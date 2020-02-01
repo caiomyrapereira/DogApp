@@ -27,6 +27,7 @@ const Search =(props)=>(
             />
 
             <Input 
+             text={'dog name:'}
              inputValue={props.inputValue}
              handlerInputValue = {props.handlerInputValue}
              className='inputSearch'

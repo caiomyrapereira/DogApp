@@ -9,12 +9,13 @@ const Container = ({
    inputValue,
    listDogs,
    dog,
+   saveActual,
    handlerBreedValue,
    handlerFontValue,
    handlerColorValue,
    handlerInputValue,
    getListDogs,
-   getDog
+   toSave
 })=>(
        <div className="container" >
           <Header  
@@ -32,8 +33,11 @@ const Container = ({
           <Main 
             dog = {dog}
             name = {inputValue}
-            fontValue = {fontValue}
+            breedValue = {breedValue} 
+            fontValue = {fontValue }
             colorValue = {colorValue}
+            saveActual = {saveActual}
+            toSave={toSave}
           />
        </div>
 

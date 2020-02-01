@@ -2,15 +2,18 @@ import React from 'react';
 import Dog from '../Dog';
 import './style.css'
 
-const Main =({dog, fontValue, colorValue , name})=>(
+const Main =({dog, breedValue, fontValue, colorValue ,name , saveActual, toSave})=>(
 
        <div className="main" >
-         { dog.status &&  <Dog dog={dog}
-                                font={fontValue}
-                                color={colorValue}
-                                name ={name} 
-                          />
-          }
+         <Dog 
+           dog={dog}
+           breedValue = {breedValue} 
+           font={fontValue}
+           color={colorValue}
+           name = {name} 
+           saveActual = {saveActual}
+           toSave = {toSave}
+         />  
        </div>
 
 );

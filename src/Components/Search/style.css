@@ -1,6 +1,6 @@
 .Search{
     width: 100%;
-    max-width: 500px;
+    max-width: 550px;
     height: 50px;
     margin: auto;
     padding-top: 25px;
@@ -13,4 +13,5 @@
  .color, 
  .buttonSearch{
     float: left;
+    margin-left:5px;
 }
