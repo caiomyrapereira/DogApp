@@ -14,7 +14,7 @@ const Search =(props)=>(
 
             <Select 
              name="fonte" 
-             arr = {['Arial','Calibri','Garamond','serif','Verdana']}
+             arr = {['Sigmar One','Pacifico','Caveat','Fredoka One','Sacramento']}
              handlerValue={props.handlerFontValue}
              value =  {props.fontValue}
             />
